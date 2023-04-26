@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - Entry point
+ * main - tis fun is for  prints the alphabet, in lowercase, followed by a new line
  * Description : prints _putchar, followed by a new line.
  * Return : always 0
  */
