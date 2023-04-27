@@ -9,7 +9,7 @@
 void print_alphabet(void) /*print_alphabet - print all alphabet in lowercase*/
 {
 char word;
-for (word = 'a'; letter <= 'z'; word++)
+for (word = 'a'; word <= 'z'; word++)
 	_putchar(word);
 _putchar('\n');
 }
