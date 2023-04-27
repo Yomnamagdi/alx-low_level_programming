@@ -4,8 +4,7 @@
  * @print_alphabet_x10: return 10 times the alphabet
  * Return: 0
  */
-void print_alphabet_x10(void)/* print_alphabet_x10 - prints 10 times alphabet*/
-
+void print_alphabet_x10(char print_alphabet_x10)
 {
 char ch;
 int i;
