@@ -1,10 +1,9 @@
 #include "main.h"
 /**
- * main: print_alphabet_x10 - prints 10 times the alphabet.
- * @print_alphabet_x10: return 10 times the alphabet
- * Return: 0
- */
-void print_alphabet_x10(char print_alphabet_x10)
+* print_alphabet_x10 - prints 10 times the alphabet, in lowercase,
+* followed by a new line
+*/
+void print_alphabet_x10(void)
 {
 char ch;
 int i;
@@ -21,3 +20,4 @@ _putchar('\n');
 i++;
 }
 }
+
