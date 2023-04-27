@@ -1,21 +1,21 @@
 #include "main.h"
 
 /**
- * main - check the code.
- *
- * Return: Always 0.
+ * _isalpha-check if character is lowercase or uppercase
+ * @charr:character to check if it islowercase or uppercase .
+ * Return:1-if lowercase/uppercase,0-if not.
  */
-int main(void)
+
+int _isalpha(int charr)
+
 {
-int r;
-r = _isalpha('H');
-_putchar(r + '0');
-r = _isalpha('o');
-_putchar(r + '0');
-r = _isalpha(108);
-_putchar(r + '0');
-r = _isalpha(';');
-_putchar(r + '0');
-_putchar('\n');
+if ((charr >= 'a' && charr <= 'z') || (charr >= 'A' && charr <= 'Z'))
+{
+return (1);
+}
+else
+{
 return (0);
 }
+}
+
