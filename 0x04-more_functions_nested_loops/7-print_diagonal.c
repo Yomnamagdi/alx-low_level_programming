@@ -6,14 +6,12 @@
  * @dl: number of times the character \ should be printed
  * Return: Always 0.
  */
-
 void print_diagonal(int dl)
 {
 	if (dl <= 0)
 	{
 		_putchar('\n');
-	} 
-	else
+	} else
 	{
 		int i, j;
 
@@ -30,3 +28,4 @@ void print_diagonal(int dl)
 		}
 	}
 }
+
