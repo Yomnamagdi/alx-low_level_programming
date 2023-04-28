@@ -1,12 +1,12 @@
 #include "main.h"
 /**
- * sum - multiply 2 int
- * @a: first int
- * @b: second int
+ * mul - multiply 2 integers
+ * @a: first input
+ * @b: second input
  * Return: addition of the multiplicattion
  */
 
-int sum(int a, int b)
+int mul(int a, int b)
 {
 	return (a * b);
 }
