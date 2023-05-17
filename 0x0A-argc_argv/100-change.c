@@ -9,31 +9,31 @@
 */
 int main(int argc, char **argv)
 {
-int totall, count;
+int total, count;
 unsigned int i;
 char *p;
-int dollar[] = {25, 10, 5, 2};
+int cents[] = {25, 10, 5, 2};
 if (argc != 2)
 {
 printf("Error\n");
 return (1);
 }
-totall = strtol(argv[1], &p, 10);
+total = strtol(argv[1], &p, 10);
 count = 0;
 if (!*p)
 {
 while (total > 1)
 {
-for (i = 0; i < sizeof(dollar[i]); i++)
+for (i = 0; i < sizeof(cents[i]); i++)
 {
-if (totall >= dollar[i])
+if (total >= cents[i])
 {
-count += totall / dollar[i];
-totall = totall % dollar[i];
+count += total / cents[i];
+totall = total % cents[i];
 }
 }
 }
-if (totall == 1)
+if (total == 1)
 count++;
 }
 else
