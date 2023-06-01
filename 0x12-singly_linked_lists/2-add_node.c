@@ -18,7 +18,7 @@ new_node->str = strdup(str);
 if (new_node->str == NULL)
 return (NULL);
 unsigned int len = 0;
-while (new_node->str[length])
+while (new_node->str[len])
 len++;
 new_node->len = len;
 new_node->next = (*head);
