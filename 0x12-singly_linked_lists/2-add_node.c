@@ -17,10 +17,10 @@ return (NULL);
 new_node->str = strdup(str);
 if (new_node->str == NULL)
 return (NULL);
-unsigned int length = 0;
+unsigned int len = 0;
 while (new_node->str[length])
-length++;
-new_node->length = length;
+len++;
+new_node->len = len;
 new_node->next = (*head);
 (*head) = new;
 return (*head);
